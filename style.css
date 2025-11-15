@@ -1,0 +1,70 @@
+.card 
+{
+	width: 197px;
+	height: 286px;
+	background-image: url("cards.png");
+}
+
+.flex1
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	padding: 40px 0;
+	align-items: center;
+}
+
+@media (width < 650px)
+{
+	.flex1
+	{
+		flex-direction: column;
+	}
+	
+	.card
+	{
+		height: 143px;
+	}
+}
+
+.flex2
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.name
+{
+	margin: 0 0 10px;
+	font-size: 24px;
+}
+
+.text
+{
+	margin: 0 0 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.number
+{
+	width: 200px;
+	border-radius: 6px;
+	background-color: #007fff;
+	font-size: 24px;
+	padding: 6px 0;
+	margin: 0 0 10px;
+}
+
+button
+{
+	font-size: 24px;
+	padding: 12px 24px;
+	background-color: #0f0;
+	border-radius: 6px;
+	border: 0;
+}
